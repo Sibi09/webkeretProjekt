@@ -1,0 +1,29 @@
+.container {
+    height: 100vh;
+}
+
+.div-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+}
+
+form div {
+    padding: 5px 5px 5px 5px;
+}
+
+form {
+    display: inline-grid;
+    width: 50%;
+    align-self: center;
+}
+
+button {
+    width: 100px;
+}
+
+span {
+    padding: 5px 5px 5px 5px;
+}

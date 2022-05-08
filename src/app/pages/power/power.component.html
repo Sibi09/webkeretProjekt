@@ -1,0 +1,22 @@
+<div class="center">
+    <table>
+        <tr>
+            <th>Utca</th>
+            <th>Házszám</th>
+            <th>Mikortól</th>
+            <th>Meddig</th>
+            <th>Állás</th>
+            <th>Módosítás</th>
+            <th>Törlés</th>
+        </tr>
+        <tr *ngFor="let power of powers">
+            <td>{{power.street}}</td>
+            <td>{{power.number}}</td>
+            <td>{{power.dateFrom}}</td>
+            <td>{{power.dateTo}}</td>
+            <td>{{power.level}}</td>
+            <td routerLink="/add-power">Módosítás</td>
+            <td (click)="onDelete(power.id)">Törlés</td>
+        </tr>
+    </table>
+</div>

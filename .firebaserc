@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "projektem-9a12f": {
+      "hosting": {
+        "Project": [
+          "projektem-9a12f"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "projektem-9a12f"
+  }
+}
